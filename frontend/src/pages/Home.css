@@ -1,0 +1,28 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.home-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Make sure InventoryList and DemandPrediction have their own spacing */
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

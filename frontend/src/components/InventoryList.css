@@ -1,0 +1,101 @@
+.inventory-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+}
+
+.loading, .error-message {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.loading {
+  color: #ff9800;
+}
+
+.error-message {
+  color: red;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.inventory-table th, .inventory-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.inventory-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.inventory-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.inventory-table tr:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .inventory-table th, .inventory-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+.low-stock {
+  background-color: rgba(255, 99, 71, 0.2); /* Light red background for low stock */
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+.alert-icon {
+  margin-left: 5px;
+  color: red;
+  font-size: 1.2em;
+}
+
+.threshold-value {
+  font-weight: bold;
+  color: #333;
+}
+
+.low-stock {
+  background-color: rgba(255, 99, 71, 0.2); /* Light red background */
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+.alert-icon {
+  margin-left: 5px;
+  color: red;
+  font-size: 1.2em;
+}
+
+.threshold-cell {
+  font-weight: bold;
+  color: #333;
+}
+
